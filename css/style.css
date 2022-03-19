@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  width: 25%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.caption {
+  font-weight: lighter;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.label {
+  font-weight: normal;
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+#ratto {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+#rattoLingua {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+
+.btnContainer {
+  text-align: center;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+#getRatto {
+  background-color: white;
+  padding: 0.8rem 2rem;
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+.postilla {
+  font-size: 0.75rem;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1535px) {
+  .app-container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .app-container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  .app-container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .app-container {
+    width: 90%;
+  }
+}
