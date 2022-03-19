@@ -84,6 +84,9 @@ section {
 }
 
 @media screen and (max-width: 697px) {
+  section {
+    padding: 1rem 0;
+  }
   .app-container {
     width: 70%;
   }
